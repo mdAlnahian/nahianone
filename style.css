@@ -1,0 +1,669 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+/*----------------------header section----------------*/
+header
+{   position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    background: lime;
+    padding: 40px 100px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    color: #fff;
+    z-index: 1;
+    border: 2px solid #000;
+}
+
+
+header .logo
+{
+    color: rgb(14, 14, 8);
+    text-decoration: none;
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tiktok 
+{
+    display: flex;
+}
+.tiktok li
+{
+    list-style: none;
+    padding: 22px;
+}
+.tiktok li a
+{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 900;
+    padding: 10px 14px;
+    background: #000;
+    border-radius: 0px;
+    letter-spacing: 2px;
+}
+
+
+
+/*-----------------------banner section--------------*/
+.banner
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: url("image3/banner.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bannertext
+{
+    text-transform: capitalize;
+    padding: 100px;
+}
+.bannertext h2
+{
+    color: #fff;
+    font-size: 70px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.bannertext h2 span
+{
+    font-size: 100px;
+    font-weight: 900;
+    color: lime;
+    letter-spacing: 3px;
+}
+
+.bannertext h3
+{
+    font-size:40px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.bannertext .btn
+{
+    text-decoration: none;
+    padding: 12px  16px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-style: normal;
+    background: lime;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.4s;
+}
+.bannertext .btn:hover
+{
+    letter-spacing: 5px;
+}
+/*---------------------about section------------------*/
+.about
+{
+    position: relative;
+    padding: 100px;
+}
+.content
+{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #111;
+    text-transform: capitalize;
+}
+.content h2
+{
+    font-weight: 800;
+    font-size: 36px;
+}
+.contentbox
+{
+    display: flex;
+    justify-content: space-between;
+}
+.context h3
+{
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    
+}
+.context
+{
+    padding-right: 100px;
+    padding-top: 100px;
+}
+.context p
+{
+    font-size: 17px;
+    font-weight: 600;
+
+}
+.contpic
+{
+    width: 50%;
+}
+.contpic img
+{
+    width: 100%;
+}
+
+/*----------------------service section----------------*/
+.service
+{
+    background: #111;
+}
+.content.white
+{
+    color: #fff;
+    padding: 30px;
+}
+.servicedata
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    align-items: center;
+}
+ .servicebox h2
+{
+     padding-top: 15px;
+}
+.servicebox p
+{
+    padding-top: 12px;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.servicedata .servicebox
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 20px;
+    max-width: 350px;
+    height: 400px;
+    color: #fff;
+    background: #222;
+    margin: 20px;
+}
+.servicedata .servicebox:hover
+{
+    background: lime;
+    transition: 0.5s;
+    color: #000;
+}
+.servicedata .servicebox img
+{
+    max-width: 100px;
+    filter: invert(1);
+}
+
+/*------------------work section-------------*/
+.workdetails
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 35px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 50px 50px 50px;
+}
+.workpic
+{
+    margin: 50px;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0px 20px 50px #000;
+}
+.workpic img
+{
+    transition: 0.5s;
+}
+.workpic img:hover
+{
+    transform: scale(1.1);
+}
+.work .content
+{
+    padding-top: 50px;
+}
+.content2
+{
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 45px;
+}
+.content2 a
+{
+    text-decoration: none;
+    font-size: 22px;
+    color: #fff;
+    padding: 12px 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background: lime;
+    transition: 0.4s;
+}
+.content2 a:hover
+{
+    letter-spacing: 3px;
+}
+.content
+{
+    padding-top: 30px;
+}
+
+/*----------testimonial-----------------*/
+.testimonial
+{
+    padding: 100px;
+    background: lime;
+}
+.testbox
+{
+    padding: 50px;
+    width: 450px;
+    background: #fff;
+    margin: 10px;
+}
+.testdata
+{
+    display: flex;
+    justify-content: space-around;
+    font-style: italic;
+    font-weight: 700;
+
+}
+.testdata p
+{
+    font-size: 18px;
+}
+.testdata h3
+{
+    width: 100%;
+    text-align: end;
+    font-size: 24px;
+    padding-top: 30px;
+    text-transform: uppercase;
+}
+.testdata h3 span
+{
+    font-style: normal;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+/*---------------------contact us -------------------*/
+.contactus
+{
+    width: 100%;
+    text-align: center;
+    padding: 100px;
+}
+.contactus h2
+{
+    text-transform: capitalize;
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+.yes
+{
+    padding: 100px;
+}
+.yesdata
+{
+    text-transform: capitalize;
+}
+.yesdata .tax
+{
+    margin: 10px;
+}
+.box
+{
+    margin: 10px;
+}
+.icontext p
+{
+    text-transform: lowercase;
+}
+.yes
+{
+    min-width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.contact 
+{
+    background: #111;
+}
+.contactus
+{
+    color: #fff;
+}
+.formbox
+{
+    min-width: 60%;
+}
+.formbox form
+{
+    display: flex;
+    flex-direction: column;
+}
+.icontext h3,
+.yesdata h3,
+.formbox form h3
+{
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.formbox form input,
+.formbox form textarea
+{
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    outline: none;
+    background: #222;
+    color: #fff;
+    resize: none;
+}
+.formbox form textarea
+{
+    min-height: 200px;
+}
+.formbox form input::placeholder,
+.formbox form textarea::placeholder
+{
+    color: #999;
+}
+.formbox form input[type="submit"]
+{
+    max-width: 100px;
+    background: lime;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.yesdata
+{
+  position: relative;
+}
+.yesdata .box
+{
+    padding: 20px 0px;
+}
+.yesdata .box .icon
+{
+    min-width: 40px;
+    padding-top: 4px;
+    color: #fff;
+    
+
+}
+.icontext
+{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items: center;
+}
+.yesdatabox p
+{
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+
+
+
+@media screen  and (max-width: 991px)
+{
+    .bannertext h2
+    {
+        font-size: 40px;
+    }
+    .bannertext h2 span
+    {
+        font-size: 60px;
+        letter-spacing: 0px;
+    }
+    .bannertext h3
+    {
+        font-size: 22px;
+    }
+    .bannertext .btn
+    {
+        font-size: 12px;
+        padding: 8px  12px;
+    }
+    .bannertext
+    {
+        padding: 10px;
+    }
+    /*----------hradewr-------------*/
+    header
+    {
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 250px;
+    }
+    header .logo
+    {
+        padding: 5px 10px;
+    }
+    .tiktok
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .tiktok li a
+    {
+        font-size: 14px;
+        border-radius: 10px;
+        padding: 5px 8px;
+    }
+    .tiktok li a:hover
+    {
+        background: #fff;
+        color: #000;
+    }
+    .tiktok li
+    {
+        list-style: none;
+        padding: 7px 7px;
+    }
+    /*-----------about-------------*/
+    .about
+    {
+        padding: 30px;
+    } 
+    .contentbox h3 
+    {
+        font-size: 18px;
+         margin-bottom: 18px;
+         text-transform: capitalize;
+         text-align: center;
+    }
+    .contentbox
+    {
+        flex-direction: column;
+    }
+    .contpic
+    {
+        width: 100%;
+    }
+    .context p 
+    {
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .context
+    {
+        width: 100%;
+        padding-right: 20px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .content
+    {
+        margin-bottom: 20px;
+    }
+    /*------------service--------*/
+    .service .content h2 
+    {
+        font-size: 27px;
+    }
+    .service .content p 
+    {
+        font-size: 16px;
+    }
+    .servicedata
+    {
+        grid-template-columns: auto;
+    }
+    .servicedata .servicebox
+    {
+        max-width: 270px;
+        height: 330px;
+        text-transform: capitalize;
+    }
+    /*----------work------------*/
+    .work .content h2
+    {
+        font-size: 27px;
+    }
+    .work .content p 
+    {
+        font-size: 14px;
+    }
+    .workdetails
+    {
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+    .workpic
+    {
+        margin: 25px;
+        height: auto;  
+        
+    }
+    .workpic img 
+    {
+        width: 100%;
+    }
+    /*----------------testimonial------*/
+    .testdata
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .testbox
+    {
+        width: 320px;
+        padding: 25px;
+    }
+    /*---------contact------------*/
+    .contactus
+    {
+        padding: 10px;
+    }
+    .contactus h2
+    {
+        font-size: 27px;
+        padding-bottom: 14px;
+    }
+    .yes
+    {
+        padding: 10px;
+    }
+    .yes
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .formbox .one
+    {
+        width: 100%;
+        text-align: center;
+    }
+    .formbox .two
+    {
+        text-align: center;
+    }
+    .yesdatabox
+    {
+        display: flex;
+    }
+    .icontext
+    {
+       justify-content: center;
+       align-items: center;
+    }
+    .icontext .three
+    {
+        text-transform: capitalize;
+    }
+    .yesdata .tax
+    {
+        text-align: center;
+    }
+    .yesdata .box
+    {
+      padding: 5px 0px;
+    }
+ 
+}
+@media screen and (max-width: 320px)
+ {
+    .bannertext h2
+    {
+        font-size: 30px;
+    }
+    .bannertext h2 span
+    {
+        font-size: 45px;
+    }
+    .bannertext h3
+    {
+        font-size: 18px;
+    }
+    .bannertext .btn
+    {
+        font-size: 10px;
+        padding: 6px  10px;
+    }
+}
